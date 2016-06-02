@@ -15,6 +15,8 @@
 		2C4AE0261CFFA65800031BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AE0241CFFA65800031BFD /* LaunchScreen.storyboard */; };
 		2C4AE0311CFFA65800031BFD /* HitListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AE0301CFFA65800031BFD /* HitListTests.swift */; };
 		2C4AE03C1CFFA65800031BFD /* HitListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AE03B1CFFA65800031BFD /* HitListUITests.swift */; };
+		2C4AE04B1CFFFAF700031BFD /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AE0491CFFFAF700031BFD /* Person+CoreDataProperties.swift */; };
+		2C4AE04C1CFFFAF700031BFD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AE04A1CFFFAF700031BFD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2C4AE0371CFFA65800031BFD /* HitListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4AE03B1CFFA65800031BFD /* HitListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitListUITests.swift; sourceTree = "<group>"; };
 		2C4AE03D1CFFA65800031BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4AE0491CFFFAF700031BFD /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "../Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2C4AE04A1CFFFAF700031BFD /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		2C4AE0171CFFA65800031BFD /* HitList */ = {
 			isa = PBXGroup;
 			children = (
+				2C4AE0491CFFFAF700031BFD /* Person+CoreDataProperties.swift */,
+				2C4AE04A1CFFFAF700031BFD /* Person.swift */,
 				2C4AE0181CFFA65800031BFD /* AppDelegate.swift */,
 				2C4AE01A1CFFA65800031BFD /* ViewController.swift */,
 				2C4AE01C1CFFA65800031BFD /* Main.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4AE04C1CFFFAF700031BFD /* Person.swift in Sources */,
+				2C4AE04B1CFFFAF700031BFD /* Person+CoreDataProperties.swift in Sources */,
 				2C4AE0211CFFA65800031BFD /* HitList.xcdatamodeld in Sources */,
 				2C4AE01B1CFFA65800031BFD /* ViewController.swift in Sources */,
 				2C4AE0191CFFA65800031BFD /* AppDelegate.swift in Sources */,
@@ -486,6 +494,7 @@
 				2C4AE0421CFFA65800031BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C4AE0431CFFA65800031BFD /* Build configuration list for PBXNativeTarget "HitListTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				2C4AE0451CFFA65800031BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C4AE0461CFFA65800031BFD /* Build configuration list for PBXNativeTarget "HitListUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				2C4AE0481CFFA65800031BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
